@@ -28,6 +28,13 @@ WealthFlow is a modern **personal finance and wealth management web application*
 | 🧭 React Router  | Application navigation                  |
 | 🖼️ Lucide React | Interface icons                         |
 
+## 🔗 Related Repository
+
+The frontend communicates with the WealthFlow backend API for server-side functionality and data management.
+
+**Backend API:**
+👉 [WealthFlow-API](https://github.com/AaryaBhanderi/WealthFlow-API)
+
 ## 📂 Project Structure
 
 ```text
@@ -35,15 +42,15 @@ WealthFlow-UI/
 ├── src/
 │   ├── assets/          # Images and static assets
 │   ├── components/      # Reusable UI components
-│   ├── hooks/            # Custom React hooks
-│   ├── lib/              # Utility functions
-│   ├── pages/            # Application pages
-│   ├── services/         # Service and API logic
-│   ├── App.tsx           # Main application component
-│   ├── App.css           # Application styles
-│   ├── index.css         # Global styles
-│   └── main.tsx          # Application entry point
-├── public/               # Public assets
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   ├── pages/           # Application pages
+│   ├── services/        # Service and API logic
+│   ├── App.tsx          # Main application component
+│   ├── App.css          # Application styles
+│   ├── index.css        # Global styles
+│   └── main.tsx         # Application entry point
+├── public/              # Public assets
 ├── package.json
 ├── tailwind.config.ts
 ├── vite.config.ts
@@ -106,7 +113,7 @@ The goal of WealthFlow is to provide a simple digital platform where users can b
 * 📈 Portfolio performance tracking
 * 🔔 Financial reminders and alerts
 * 📱 Improved mobile experience
-* 📑 Financial reports and export options
+* 📑 Financial reports
 
 ## 👨‍💻 Author
 
